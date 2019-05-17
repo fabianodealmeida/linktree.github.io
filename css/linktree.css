@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+}
+
+.inicio {
+	clear: left;
+}
+.flutua {
+	float: left;
+	width: 49.8%;	
+}
+
+#banner {
+	background-image: linear-gradient(#0030f4, #fff);	
+}
+
+.hl {
+	background-image: linear-gradient(#ffffff, #64cbb6);
+	height: 345px;
+    margin-right: 0.1%;
+    margin-left: 0.1%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.hlb {
+	background-color: #64cbb6;
+    margin-right: 0.1%;
+    margin-left: 0.1%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.t7 {
+	background-image: linear-gradient(#ffffff, #789764);
+	height: 345px;
+    margin-right: 0.1%;
+    margin-left: 0.1%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.t7b {
+	background-color: #789764;
+    margin-right: 0.1%;
+    margin-left: 0.1%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.caixa {
+	width: 50%;
+	background-color: #dbe1d7;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+
+}
+
+
+/* width 320 - o valor atual é para teste no computador */
+@media screen and (max-width: 820px) {
+	.flutua{
+		clear: left;
+		width: 90%;
+		margin-left: 5%;
+	}
+	.hl {
+	    border-radius: 10px 10px 10px 10px;
+	    margin: 10px;
+	}
+	#hlmob::before {
+		content: url(blob:https://pasteboard.co/f4869f0f-a2fd-4157-8dfc-296b4e7d6f3c);
+	}
+	.hlb {
+	    border-radius: 10px 10px 10px 10px;
+	    margin: 10px;
+	}
+	.t7 {
+	    border-radius: 10px 10px 10px 10px;
+	    margin: 10px;
+	}
+	.t7b {
+	    border-radius: 10px 10px 10px 10px;
+	    margin: 10px;
+	}
+}
